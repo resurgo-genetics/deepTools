@@ -16,7 +16,8 @@
 #cd ..
 #pip install .
 #galaxy/wrapper/correctGCBias.xml \
-/home/travis/build/deeptools/deepTools/foo/bin/planemo test --test_data galaxy/wrapper/test-data/ --postgres --no_conda_auto_install --no_conda_auto_init --no_dependency_resolution \
+#/home/travis/build/deeptools/deepTools/foo/bin/planemo test --test_data galaxy/wrapper/test-data/ --postgres --no_conda_auto_install --no_conda_auto_init --no_dependency_resolution \
+planemo test --test_data galaxy/wrapper/test-data/ --postgres --no_conda_auto_install --no_conda_auto_init --no_dependency_resolution \
 galaxy/wrapper/bamCompare.xml \
 galaxy/wrapper/bamCoverage.xml \
 galaxy/wrapper/bamPEFragmentSize.xml \
